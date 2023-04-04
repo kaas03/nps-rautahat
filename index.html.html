@@ -1,0 +1,718 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<title>Mini project</title>
+	
+	<style>
+	body{
+			font-family: Areial;
+		 	background-image:  url(https://scontent.fktm9-2.fna.fbcdn.net/v/t31.18172-8/10644384_1647323275491428_2166277290722091400_o.jpg?_nc_cat=100&ccb=1-7&_nc_sid=19026a&_nc_ohc=7r29pplBLQUAX8pJLU1&_nc_ht=scontent.fktm9-2.fna&oh=00_AfB2nVyM2Kch4aG7lCd7tnYoZsxKS39EPo2xAFElRold-w&oe=64315EEF);
+      		 	background-repeat: none;
+
+             background-size:cover;
+             font-size: 20px; 
+		}
+
+	header {
+		background-color: white;
+         color:navy;
+         text-align: center;
+        
+         font-family: Algerian;
+	
+	
+	}
+	header img {
+		  margin-top: 1rem;
+	}
+	.dropdown{
+            background-color:yellow;
+            
+            padding: 0px;
+            border-radius: 0px 10px;
+            position: absolute;
+            display: none;
+            text-align: center;
+	}
+	.dropdown a{
+		display: block;
+		color: navy;
+	}
+	.down:hover .dropdown{
+		display: block;
+		color: navy;
+
+	}
+	h3 {
+		background-color: yellow;
+         color:navy;
+         text-align: center;
+         border-radius: 20px;  
+	}
+
+	h3:hover{
+		background-color: ;
+		color:red ;
+	}
+   .a h3
+   {
+    width: 300px;
+   }
+
+			.a img{
+   
+		border-radius: 20px;
+		margin-top: 5px;
+		margin-left: 05px;
+		background-color: red ;
+		transition: all 1s;
+    width: 300px;
+    height: 200px;
+
+	}
+	.a img:hover{
+		transform: scale(1.2,1.0);
+	}
+nav ul li{
+	float: left;
+	}
+nav ul li a{
+	text-decoration: none;
+	padding:10px  35px;
+	color: red;
+	display: inline-block;
+	font-size: 20px;
+}
+	nav{
+            background-color: yellow;
+            color: red ;
+            overflow: hidden;
+            border-radius: 20px;
+            cursor:pointer;
+	}
+nav ul{
+	   list-style-type: none;
+	   padding: 0px;
+	   margin: 0px;
+}
+nav ul li a:hover{
+	           color: red;
+                background-color: navy;
+                border-radius: 20px; 
+}
+nav ul li  a.active{
+               color: red;
+                background-color: navy;
+                border-radius: 20px;
+}
+aside{
+	background-color: forestgreen;
+	color:white;
+	width: 400px;
+	cursor: pointer;
+}
+div{
+	text-align: center;
+	color: yellow;
+	background-color: orangered;
+	margin-left: 400px;
+	padding: 0px;
+	margin-top: 0px;
+}
+
+.slide-left{
+            animation: slideleft 10s linear forwards;
+}
+
+@keyframes slideleft {
+              0%{
+              	transform: translate(100%);
+              	opacity: 0;
+              }
+            100%{
+
+            	transform: translate(0%);
+            	opacity: 1;
+            }  
+     
+     @media(min-width: 400px)
+      {
+      	body
+      	{
+      		font-size: 2.5rem;
+      	}
+      }
+      @media(min-width: 600px)
+      {
+      	body{
+      		font-size: 2rem;
+      	}
+      }
+     		
+     @media(min-width: 800px)
+      {
+      	body
+      	{
+      		font-size: 1.25rem;
+
+      	}
+      	@media(min-width: 1000px)
+      	{
+      		body{
+      			font-size: 2rem;
+      		}
+      	}
+      	@media(min-width: 1200px)
+      	{
+      		body{
+      			font-size: 2.75rem;
+      		}
+      	}
+      	@media(min-width: 1500px)
+      	{
+      		body{
+      			font-size: 3.5rem;
+      		}
+      	}
+      img :hover{
+      	       transform:scale(1,2,1,2,);
+
+      }
+     
+@media(min-width: 1000px)
+      {
+      	body
+      	{
+
+      		font-size: 1.25rem;
+      	}
+      }
+    .class{
+    	width: 200px;
+    	height:300px;
+    	float: left;
+    	animation: slider 3s infinite;
+}
+@keyframes slider{
+
+
+0%{
+
+}
+
+</style>
+
+
+
+</head>
+<body>
+	<hr>
+	<audio controls hidden="controls" autoplay="mp3">
+	<source src="E:\index.html\NPS\voice.MP3.mp3"  type="audio/mp3">
+	</audio>
+
+	<header>
+	<img src="https://play-lh.googleusercontent.com/aZCDZV-Z36gqoxhQsd_TWlkpG3PZwTT6kBEFp_X2k4cBKCzvkexQbFIrdQCPzMACUg=w240-h480-rw" width="100px" height="95px" background-color="red" border-radius="30px" align="left"  >
+	
+	<img src="https://i.pinimg.com/originals/d0/68/dc/d068dc473f7ffc80f99e24d286677b18.png"width="100px"height="95px" align="right" margin-right="20px">
+
+	
+	<h1>NEPAL POLICE SCHOOL</h1>
+	<h2>GARUDA 04,RAUTAHAT , NEPAL</h2>
+</header>
+
+    
+
+<nav>
+	<ul>
+	<li>
+		<a href="http://127.0.0.1:9000/mini%20project.html" class="active">Home</a>
+	</li>
+	<li>
+		<a href="#">About us</a>
+	</li>
+	<li class="down"><a href="#">Notice</a>
+		<div class="dropdown">
+			
+			<a href="#">Holiday</a>
+			<a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/330449706_533380765585002_1721101667422652633_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=97a8Ky50Ot8AX9LqR7H&_nc_ht=scontent.fktm9-2.fna&oh=00_AfCJ-0CSeSbL_lFqhxRW_JgecVS-71NrlRzjPDW1spjbag&oe=64101BA1">Admission for new session BS.2080</a>
+		    <a href="#">Vaccency</a>
+			<a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/332922179_900082901230063_5393857751913169749_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=OAQ4guwu0lEAX9L8e8f&_nc_ht=scontent.fktm9-2.fna&oh=00_AfAGnRSOMC0IkBD1QBa_DJHx5fZn8xFN538kDz3t3a9lpw&oe=64109ED3">Special function </a>
+			<a href="#">Final Examination of 2079 </a>
+			<a href="#">Final Examination Result of 2079</a>
+		
+		</div>
+
+	</li>
+	<li>
+		<a href="https://www.facebook.com/nps.garuda.14/friends/">Contact us</a>
+     </li>
+	     <li>
+	     	<a href="https://www.google.com/maps/place/Mid+Regional+Police+Boarding+School,+Chandranigahapur-Gaur+Road,+Garuda+44513/@26.9753908,85.3168401,17.5z/data=!4m14!1m7!3m6!1s0x39ec991ed5b90e41:0x819777e75b401bfa!2sSMRPB+Sharaswati+Temple!8m2!3d26.975309!4d85.3185469!16s%2Fg%2F11g9r1g4tv!3m5!1s0x39ec991f277c2887:0x87bdc8c5197278bc!8m2!3d26.9757938!4d85.3178221!16s%2Fg%2F11bvtcyhsm">Location</a></li>
+	     	<li>
+    	<a href="https://play.google.com/store/apps/details?id=com.maxconnect.nepalpolice">Login NPS Rauthat</a>
+	
+    </li>
+
+     
+     <li>
+		<details ><SUMMARY>Academic Activities Views</SUMMARY>
+			<article >
+				<div class="a">
+	   
+	   <a href="E:\index.html\a.jpg"><img src="E:\index.html\a.jpg"></a>
+	   <a href="E:\index.html\acadimic.jpg"><img src="E:\index.html\acadimic.jpg"></a>
+	   
+	   
+	   <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/278844893_522818682829149_5290409173437428657_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=x6d9x_plDVoAX_9c-xz&_nc_ht=scontent.fktm9-2.fna&oh=00_AfA_vniavvDzxW1TgJNB5FFHpnUMGuBF5knlq8mGl4Ooow&oe=640E2E66"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/278844893_522818682829149_5290409173437428657_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=x6d9x_plDVoAX_9c-xz&_nc_ht=scontent.fktm9-2.fna&oh=00_AfA_vniavvDzxW1TgJNB5FFHpnUMGuBF5knlq8mGl4Ooow&oe=640E2E66"><h3>Interaction programme for police  officer of NPS Rautahat </h3></a>
+
+	   <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/278451292_522820269495657_6307406137020198957_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=3pToz05C0JAAX9bFwtK&_nc_ht=scontent.fktm9-2.fna&oh=00_AfC9bmLaP_aT1BmeUpumXgwzFm_vR5w8r1H6C3LIzb7asw&oe=640F35EF"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/278451292_522820269495657_6307406137020198957_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=3pToz05C0JAAX9bFwtK&_nc_ht=scontent.fktm9-2.fna&oh=00_AfC9bmLaP_aT1BmeUpumXgwzFm_vR5w8r1H6C3LIzb7asw&oe=640F35EF"><h3>Crowd of entrance exam 2079</h3></a>
+
+	   <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/278624820_522890472821970_2349499105155798374_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=s5Y8lqr-ewEAX8oJwsd&_nc_ht=scontent.fktm9-2.fna&oh=00_AfBZSc-bE_2QOX3DaxsPQHgQ_gbQepZA3kN9NT0SzdejHw&oe=640FB94D"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/278624820_522890472821970_2349499105155798374_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=s5Y8lqr-ewEAX8oJwsd&_nc_ht=scontent.fktm9-2.fna&oh=00_AfBZSc-bE_2QOX3DaxsPQHgQ_gbQepZA3kN9NT0SzdejHw&oe=640FB94D"><h3>Vaccination programme </h3></a>
+
+	   <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/279459889_528115888966095_3859396163320330948_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=5k_UmDFXG2gAX9KO4Gg&_nc_oc=AQku4tZnZ0O3dy6oVQL3wb7KJzjgUg4p-ivLujSuiAIPvK7Q_9qpGTe-kWLxB_47Ktup4HOrGuTGyy9T1Cq_4MPU&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDlNHVSM-7ddGlR5sdK_n3mPvU4JO7tmPZZxUxQc5DKzQ&oe=640F06D7"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/279459889_528115888966095_3859396163320330948_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=5k_UmDFXG2gAX9KO4Gg&_nc_oc=AQku4tZnZ0O3dy6oVQL3wb7KJzjgUg4p-ivLujSuiAIPvK7Q_9qpGTe-kWLxB_47Ktup4HOrGuTGyy9T1Cq_4MPU&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDlNHVSM-7ddGlR5sdK_n3mPvU4JO7tmPZZxUxQc5DKzQ&oe=640F06D7"><h3>Farewell programme for 2078 batch</h3></a>
+        
+        <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/327083437_761188058217733_488627572184183069_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=iBNJyxBi6VwAX8fB7rW&_nc_ht=scontent.fktm9-2.fna&oh=00_AfBeduauZglXp49z85kZLmEEQTasoDtIzSN5VHXx-1q7-g&oe=6419A970"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/327083437_761188058217733_488627572184183069_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=iBNJyxBi6VwAX8fB7rW&_nc_ht=scontent.fktm9-2.fna&oh=00_AfBeduauZglXp49z85kZLmEEQTasoDtIzSN5VHXx-1q7-g&oe=6419A970"><h3>The peace land of Rautahat</h3></a>
+        
+	   <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/285189414_547637380347279_1816225499546071764_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=6SV_k9EN6BUAX9DVq-6&_nc_ht=scontent.fktm9-2.fna&oh=00_AfD8FZlZ1CD48M8AraKJ-0lwRHuuzrdSTbmiSUaQeoFQ_g&oe=640E3224"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/285189414_547637380347279_1816225499546071764_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=6SV_k9EN6BUAX9DVq-6&_nc_ht=scontent.fktm9-2.fna&oh=00_AfD8FZlZ1CD48M8AraKJ-0lwRHuuzrdSTbmiSUaQeoFQ_g&oe=640E3224"><h3>
+	   Interaction programme between parents & School</h3></a>
+
+	   <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/285508381_549513416826342_8418702761757172784_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=yPGfMssT3AQAX9Af7TN&_nc_ht=scontent.fktm9-2.fna&oh=00_AfBjaGcAzSrLdl6G7nq2oDAHn-_D_tHu0Sp9IEgU0vsEzw&oe=640F45BE"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/285508381_549513416826342_8418702761757172784_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=yPGfMssT3AQAX9Af7TN&_nc_ht=scontent.fktm9-2.fna&oh=00_AfBjaGcAzSrLdl6G7nq2oDAHn-_D_tHu0Sp9IEgU0vsEzw&oe=640F45BE"><h3>Teaching  student with fun</h3></a>
+
+	   <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/285508381_549523840158633_8597401051320456361_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=aGF_4okqL2oAX8Quwtc&_nc_ht=scontent.fktm9-2.fna&oh=00_AfAuQebPn_iAzxNTyAIbW_fD0J7_U79S20At1HpceADpQw&oe=640F2104"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/285508381_549523840158633_8597401051320456361_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=aGF_4okqL2oAX8Quwtc&_nc_ht=scontent.fktm9-2.fna&oh=00_AfAuQebPn_iAzxNTyAIbW_fD0J7_U79S20At1HpceADpQw&oe=640F2104"><h3>Teaching  student with fun</h3></a>
+
+	   <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/285655906_550828680028149_2329314132159633917_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=ShA-S4kSLq8AX8ZFf4x&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDVpLJ9csMmPMgbJzZfNQosPVmA_bdg8_qPcJbXEQu-sQ&oe=640ED2F1"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/285655906_550828680028149_2329314132159633917_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=ShA-S4kSLq8AX8ZFf4x&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDVpLJ9csMmPMgbJzZfNQosPVmA_bdg8_qPcJbXEQu-sQ&oe=640ED2F1"><h3>Interaction programme between teacher </h3></a>
+       <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/299531430_130679349675253_1002389501511841610_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=-wKTRskeIiQAX9PRC5X&_nc_ht=scontent.fktm9-2.fna&oh=00_AfAVqe5hfJ36bU4zwIkC4VW9RwU0BHpMjOfVLDrNV9xVIQ&oe=640FAFE9"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/299531430_130679349675253_1002389501511841610_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=-wKTRskeIiQAX9PRC5X&_nc_ht=scontent.fktm9-2.fna&oh=00_AfAVqe5hfJ36bU4zwIkC4VW9RwU0BHpMjOfVLDrNV9xVIQ&oe=640FAFE9"><h3>Janmastami special</h3></a>
+	   <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/285854530_550993213345029_5005349887534638121_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=ThQ5C-xR2oIAX9ZVpsD&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDKc68OqdyyM3K7YmtUOCOinCwQhWK12ysXNMqMm-obDg&oe=640F8E11"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/285854530_550993213345029_5005349887534638121_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=ThQ5C-xR2oIAX9ZVpsD&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDKc68OqdyyM3K7YmtUOCOinCwQhWK12ysXNMqMm-obDg&oe=640F8E11"><h3>NPS student cleaning their temple on World Enviroment Day</h3></a>
+
+	   <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/318788001_681445753633107_4935580917585673124_n.jpg?stp=cp6_dst-jpg&_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=J6_LvNbR0pUAX8tiLqX&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDtKpS52QfL4Uf3csKit7D3F-Ft2ArA68R3XdKX9842gQ&oe=640E2DF0"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/318788001_681445753633107_4935580917585673124_n.jpg?stp=cp6_dst-jpg&_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=J6_LvNbR0pUAX8tiLqX&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDtKpS52QfL4Uf3csKit7D3F-Ft2ArA68R3XdKX9842gQ&oe=640E2DF0"><h3>Gender equalities interaction programme between student & guest</h3></a>
+
+	   <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/318746144_681445860299763_288498515417554280_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=z7JEsLCkpmkAX9PtiPW&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDIhN_8G13UGmFm8pK961jA5EeH21sJTmfc9NqPbpoPSg&oe=640EE244"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/318746144_681445860299763_288498515417554280_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=z7JEsLCkpmkAX9PtiPW&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDIhN_8G13UGmFm8pK961jA5EeH21sJTmfc9NqPbpoPSg&oe=640EE244"><h3>Gender equalities interaction programme between student & guest</h3></a>
+
+	   <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/321490278_1133513477315293_5439601407495393858_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=jh48i-PSXZAAX-91YrO&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDqiP4tEKScBgx0wqlmFBSjGkHRqXuv1elcywohjrUnHg&oe=640DEDD3"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/321490278_1133513477315293_5439601407495393858_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=jh48i-PSXZAAX-91YrO&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDqiP4tEKScBgx0wqlmFBSjGkHRqXuv1elcywohjrUnHg&oe=640DEDD3"><h3>Girls cricket winner team </h3></a>
+
+	   <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/323860362_1228602057730073_7564329387280484441_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=GPi7QGoekocAX-fls7v&_nc_ht=scontent.fktm9-2.fna&oh=00_AfB4W5WOTSGDBL32jXbkzmpMWtlyYW0PKI6qtXMKkDY2vQ&oe=640F8D35"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/323860362_1228602057730073_7564329387280484441_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=GPi7QGoekocAX-fls7v&_nc_ht=scontent.fktm9-2.fna&oh=00_AfB4W5WOTSGDBL32jXbkzmpMWtlyYW0PKI6qtXMKkDY2vQ&oe=640F8D35"><h3>Interaction progeamme between school & society</h3></a>
+
+        <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/327176476_920223989141515_7874773017321452615_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=7ivYR1ryzmsAX_qv62h&_nc_ht=scontent.fktm9-2.fna&oh=00_AfCtU48qNaxRemZ2gq8OeZoSOY3TONZAWmzt74u1M4fAXQ&oe=640E97DC"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/327176476_920223989141515_7874773017321452615_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=7ivYR1ryzmsAX_qv62h&_nc_ht=scontent.fktm9-2.fna&oh=00_AfCtU48qNaxRemZ2gq8OeZoSOY3TONZAWmzt74u1M4fAXQ&oe=640E97DC"> <h3>NPS Student trained cricket by London coach</h3></a>
+
+        <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/327139852_879883656656502_7415750259674521994_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=lKw1QappmEsAX_AsNhI&_nc_ht=scontent.fktm9-2.fna&oh=00_AfBKoAIQ3oGwzzY_QR3odqiCuRLzQaRNm1RcgXIJBrsprA&oe=640E954E"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/327139852_879883656656502_7415750259674521994_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=lKw1QappmEsAX_AsNhI&_nc_ht=scontent.fktm9-2.fna&oh=00_AfBKoAIQ3oGwzzY_QR3odqiCuRLzQaRNm1RcgXIJBrsprA&oe=640E954E"><h3>London coach is giving training to NPS student</h3></a>
+
+        <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/327669843_861782895081251_1717825634012341585_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=HgVyRuM5uWoAX9L0pxD&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDarzLsygzKNMbPdwgGArm0CuXANR0QWj-b7Ddo0NGL5w&oe=640EAD8F"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/327669843_861782895081251_1717825634012341585_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=HgVyRuM5uWoAX9L0pxD&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDarzLsygzKNMbPdwgGArm0CuXANR0QWj-b7Ddo0NGL5w&oe=640EAD8F"><h3>NPS stage</h3></a>
+
+        <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/327545274_544568647705214_3686222616244871187_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=34qdXxtURswAX8Fm6hf&_nc_ht=scontent.fktm9-2.fna&oh=00_AfAvj93ZV50IHNmtY7H_HcsqHC-gkqiFjwR06RfJoiZLRQ&oe=640E00BD"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/327545274_544568647705214_3686222616244871187_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=34qdXxtURswAX8Fm6hf&_nc_ht=scontent.fktm9-2.fna&oh=00_AfAvj93ZV50IHNmtY7H_HcsqHC-gkqiFjwR06RfJoiZLRQ&oe=640E00BD"><h3>Togetherness on Sarawasti pooja </h3>
+        </a>
+	    
+	    <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/327548705_1176627016302693_8089611610419040615_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=N1nCpadFnr0AX-4TwNs&_nc_ht=scontent.fktm9-2.fna&oh=00_AfA71jdyT-_51du9TCmcNWB0jIJ0WS1-05wQ2cE33Itc6g&oe=640FA73C"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/327548705_1176627016302693_8089611610419040615_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=N1nCpadFnr0AX-4TwNs&_nc_ht=scontent.fktm9-2.fna&oh=00_AfA71jdyT-_51du9TCmcNWB0jIJ0WS1-05wQ2cE33Itc6g&oe=640FA73C"><h3>Cultural Programme</h3></a>
+
+	    <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/329241416_863333441392554_816608586835453531_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=4V_UvY3JaegAX9eYRa_&_nc_ht=scontent.fktm9-2.fna&oh=00_AfCTPqE_6nA-9TQkxzhAGjckLY_vhLr_DeRuCqkRxKZ4fg&oe=640DF671"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/329241416_863333441392554_816608586835453531_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=4V_UvY3JaegAX9eYRa_&_nc_ht=scontent.fktm9-2.fna&oh=00_AfCTPqE_6nA-9TQkxzhAGjckLY_vhLr_DeRuCqkRxKZ4fg&oe=640DF671"><h3>Giving wollen cap to Orphange by NPS Social club</h3></a>
+
+	    <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/333631185_6430962843633388_5799308280497609826_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=rGR8BujRvbAAX8LTm3N&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDE4tndatMTRc4xJSAbDXlNkH85JaXd1JnAK5pQgsL6Bg&oe=640FB945"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/333631185_6430962843633388_5799308280497609826_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=rGR8BujRvbAAX8LTm3N&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDE4tndatMTRc4xJSAbDXlNkH85JaXd1JnAK5pQgsL6Bg&oe=640FB945"><h3> Boys cricket player</h3></a>
+
+	    <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/333467533_717028180078400_977390524609121995_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=4dsG7CpyzzEAX_oJ-uV&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDhlYpQftZ3WwMrTVPC3w43vvesrBTwE5YJ-KqYQLGN1w&oe=640DFA86"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/333467533_717028180078400_977390524609121995_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=4dsG7CpyzzEAX_oJ-uV&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDhlYpQftZ3WwMrTVPC3w43vvesrBTwE5YJ-KqYQLGN1w&oe=640DFA86"><h3>Boys cricket player of NPS & Reader school</h3></a>
+
+	    <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/333636213_663717658840871_8573643588284661146_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=zRIPtzbPkUUAX9UDHvd&_nc_ht=scontent.fktm9-2.fna&oh=00_AfBzmXZYS7hBF-RT2CIQfq86vXs9DuYOtAK-Twty-YIhbg&oe=640F91FF"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/333636213_663717658840871_8573643588284661146_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=zRIPtzbPkUUAX9UDHvd&_nc_ht=scontent.fktm9-2.fna&oh=00_AfBzmXZYS7hBF-RT2CIQfq86vXs9DuYOtAK-Twty-YIhbg&oe=640F91FF"><h3>NPS student participate in cleaning public property with Area police Garuda</h3></a>
+
+	    <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/333983114_718952239856070_3212927819130921014_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=3HlMgTxhPyMAX8ZyoTJ&_nc_ht=scontent.fktm9-2.fna&oh=00_AfBOy_LsrbhVk_oQl0NK7VVpMKpMcEOlIkeqG-VKxejPsw&oe=640F430A"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/333983114_718952239856070_3212927819130921014_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=3HlMgTxhPyMAX8ZyoTJ&_nc_ht=scontent.fktm9-2.fna&oh=00_AfBOy_LsrbhVk_oQl0NK7VVpMKpMcEOlIkeqG-VKxejPsw&oe=640F430A"> <h3>Organizing fair & Exibition to put out the inner talent of student</h3></a>
+
+	    <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/333650550_1150244338974426_2621977656805183975_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=2E-1X_zyXK0AX-U2PXk&_nc_ht=scontent.fktm9-2.fna&oh=00_AfBCCPHVHGeKwAPAeVyfeC2gxWvYI4JCWQn9v5tcxZ4ZMw&oe=640F9973"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/333650550_1150244338974426_2621977656805183975_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=2E-1X_zyXK0AX-U2PXk&_nc_ht=scontent.fktm9-2.fna&oh=00_AfBCCPHVHGeKwAPAeVyfeC2gxWvYI4JCWQn9v5tcxZ4ZMw&oe=640F9973"><h3>Student Dressed in different culture clothes in NPS Fair
+	    </h3></a>
+
+	    <a href="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/333687273_5842551622531757_5564096238464116148_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=13bY5KFsYcUAX8OkyBY&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDxiOBfyCnAFjwHG6dK4C_2JGeCWXIwmI0mhnn1Mptlwg&oe=640F6A74"><img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/333687273_5842551622531757_5564096238464116148_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=13bY5KFsYcUAX8OkyBY&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDxiOBfyCnAFjwHG6dK4C_2JGeCWXIwmI0mhnn1Mptlwg&oe=640F6A74"><h3>Guest enjioying in NPS fair</h3></a>
+	    <iframe width="300px" height="200px" src="https://www.youtube.com/embed/QI90tHedsw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        <iframe width="300px" height="200px" src="https://www.youtube.com/embed/RqKQzZRjN-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       
+       <iframe width="300px" height="200px" src="https://www.youtube.com/embed/wOCRji5o-Kw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       
+       <iframe width="300px" height="200px" src="https://www.youtube.com/embed/coPAA9BSCUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="300px" height="200px" src="https://www.youtube.com/embed/udGIo8lafD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+			</article></details> 
+     </li>
+     
+        
+</ul>
+</nav>
+<div id="k">
+	
+
+</div>
+<aside>
+	<H1 align='center'>HEAD PERSON </H1>
+    <ul>
+    <details>
+	<summary>Principal</summary>
+	<article >
+	<img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/327701363_862491951694031_6817287196837696290_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=mEf59AdHuu4AX8cOY2s&_nc_ht=scontent.fktm9-2.fna&oh=00_AfCkMY5tSD0XBfv3QhqTDvJIKcO8JOFI6wd22r458WaGKQ&oe=640EF2EE" height="200px" breadth="250px">
+
+<h2>	Bina Jha</h2>	
+		
+		<p>
+Gender Expert
+is a practising lawyer and doing her Ph. D. She is working as a campus chief in West Point College, Myagdi and has completed her Master’s in Sociology with Gender Studies from Tribhuvan University, Nepal. She has also achieved a Master’s degree in Maithili and Bachelor’s in Law. She wishes to use her knowledge and skill to eliminate GBV from the society and contribute to empowering women to enhance their capacity to uplift their quality of life.
+</p>
+<p>
+She is also interested in the academic sector to educate the youth of Nepal to fight against social evils such as GBV and behavioural challenges for women/ girls in Nepal. She writes frequently on gender and social issues in a different national daily and hasG worked as Gender Advisor for Cricket For Equality Project in 2017 and 2018.
+</p>
+<p>
+	From 2078 Chaitra she joined NPS {NEPAL POLICE SCHOOL} Garuda,Rauthat  as first woman principal.She also stared 'No junk food procession. This program succesed in our school by the help of all school family member.We have a  lot of wish with our principal ma'am.She told us there is no value of education if you can't use in your daily life. 
+</p>
+</article>
+</details>
+</ul>
+<ul>
+<details>
+	<summary>Commandant</summary>
+	<article>
+		<img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-1/322702317_886752022517503_3995213864283178599_n.jpg?stp=dst-jpg_p320x320&_nc_cat=106&ccb=1-7&_nc_sid=7206a8&_nc_ohc=cQhFHnZIIUIAX8a02X1&_nc_ht=scontent.fktm9-2.fna&oh=00_AfBLSpO0Sgx12n5C9XdxfJSXA5r8MtucD4mI5FvDwrs8xg&oe=640E2103">
+	
+		<h2>Lokendra GC</h2>
+		<p>From Chaitra 2078 he joined NPS{NEPAL POLICE SCHOOL}Garuda as commandant. He is Inspector of Nepal Police Force .He like to play football.He always tell us to be in discipline.</p>
+	</article>
+</details>
+</ul>
+<ul>
+<details>
+		<summary>Vice-principal {Academic}</summary>
+<article>
+<img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t1.6435-9/187636792_2008324169346249_7708078152789222371_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=XLvPbI_PJ2sAX9hQE39&_nc_oc=AQniB6sASlIOdFWau-108aHVv83uRxztHT2cVAy-c-f14mtlNVxKMMllh57FvboaK17zaGOfdRH4pg-jvMHbPuX8&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDHigJ2nzbW4tvzGY3en1mHQsskaFd5DemVNtq3tWRl7A&oe=64315ED7"  height="300px" width="300" >
+
+		<H2>Jamun Prasad Yadav</H2>	
+	<p>He work in this school from begining . He is a inspirasation for me . He always take any decision with his cool and healthy mind .He is also HOD[Head of Department] of English subject. </p>
+	<h3>Contact no:+977-9845057874</h3>
+	</article>
+
+</details>
+</ul>
+
+<ul>
+<details>
+			<summary>Vice-principal {Pastrol}</summary>
+<article>
+        <img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t31.18172-8/28828385_1372501902856287_4339820127418880444_o.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_ohc=SN2aJeHyORIAX-eUSgj&_nc_ht=scontent.fktm9-2.fna&oh=00_AfBzoGz4InqRdRNBCaUmVZ0uvcBvo5DmXKlPVuzh2ZKR5g&oe=643162D6" height="300px" width="300px">		
+		<h2>Ashok Yadav</h2>
+		<p>He is HOD[Head of Department] of Science.</p>
+	<h3>Contact no:+977-9841303734</h3>
+	</article>
+</details>
+</ul>
+<ul>
+<details>
+			<summary>Academic Co.</summary>
+<article>		
+		<img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-1/278586578_2999591040333141_9026048213030977421_n.jpg?stp=dst-jpg_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=7206a8&_nc_ohc=AFmpya_85l4AX_GxxwZ&_nc_ht=scontent.fktm9-2.fna&oh=00_AfCX_UVainPxpBMnv-0dlqfORscjsdaT_AmPRW0GZMX1og&oe=640E9AE5">
+		<h2>Hari Bahadur G.C</h2>
+		<h3>Contact no:+977-9845057709</h3>
+	</article>
+</details>
+</ul>
+<ul>
+<details>
+			<summary>ECA Codinator</summary>
+<article>		
+		<img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t1.6435-9/186517026_2302555026542007_7099474342837490789_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_ohc=jhhVAxuJQlkAX8vb5Iv&_nc_oc=AQmdmDnCvbqJQ1CHvKYobQo9tv75Q0x5BJWaY1KlkwLWY7Hky_fHNUU0BMjuPfU0tB9Mc1IQ7JEtCIZk2tOtYLEr&_nc_ht=scontent.fktm9-2.fna&oh=00_AfBGNMnMQBCijgWBOWTJE7nJHRlJuYKe-Ky5XMHJO6DLdw&oe=643151CB" height="300px" width="300px">
+		<h2>Shyam Nandan Yadav </h2>
+		<h3>Contact no:+977-9845477171</h3>
+	</article>
+</details>
+</aside>
+
+	</ul>
+	<aside>
+		<h1 align="center">CLASS TEACHER</h1>
+	<ul>
+		<details>
+
+			<summary>CLASS TEACHER of 10 </summary>
+			<ARTICLE>
+				<h3>Class Teacher of 10'Himal'</h3>
+				<img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/323049029_899697078110905_8859335011359892761_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=DxobHszl9BYAX-ReCJS&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDRfwYsMMBvH4B_EuY_SylwTYXA6gQ_rCeJwaXG_NmDTA&oe=641000EF" width="300px" height="200px">
+				<H2>Gopal Sharma Paudel </H2>
+				<h3>contact no:+977-9844641076</h3>
+			
+	<h3>CLASS TEACHER 10 'Pahard'</h3>
+			
+				<img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/229597268_853336242281190_1608231783668496911_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=2z0MAOUODCwAX8VgELo&_nc_ht=scontent.fktm9-2.fna&oh=00_AfCDxbQXVt49wiOZKBiahelKHpOC8bx3iOr5oVGCMGxRhQ&oe=64111438" width="300px" height="200px">
+				<H2>Gajendra Yadav </H2>
+				<h3>contact no:+977-9844113830</h3>
+			</ARTICLE>
+		</details>
+	</ul>	
+	<ul>
+		<details>
+			<summary>CLASS TEACHER Of 09 </summary>
+			<ARTICLE>
+				<h3>CLASS TEACHER Of 09 'Himal'</h3>
+				<img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/309353058_2920629028241444_68273975290493824_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=1aWs1ywV-BUAX9sdV-m&_nc_ht=scontent.fktm9-2.fna&oh=00_AfCeWO6UAoNqAj_UOvqHhpzo0NxCQE4xTuo6Z0R8tIurQg&oe=6410790B" width="300px" height="200px">
+				<H2>Anil Kumar Amar</H2>
+				<h3>contact no:+977-9845057724</h3>
+			
+	
+		<h3>CLASS TEACHER 09 'Pahard'</h3>
+			
+				<img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t1.6435-9/61927700_2209006769148133_3305699240965046272_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=G1q7sDogPC0AX_cedNa&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDD0PnI3NTXUWJbl3uu9FIzN9SyqVpB2G8jhACYtD-auQ&oe=6432B3CA" width="300px" height="200px">
+				<H2>Dhan Dev Joshi</H2>
+				<h3>contact no:+977-9849190771</h3>
+			</ARTICLE>
+		</details>
+	</ul>
+	<ul>
+		<details>
+			<summary>CLASS TEACHER Of 08</summary>
+			<ARTICLE>
+				<h3>CLASS TEACHER 08'Himal'</h3>
+				<img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/310604253_5306442446145670_524037551862774315_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=qZFrwM5aGKIAX8_GVkd&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDD3y6Bga-IymBPzd196_JhGf4SoS5Y6CGZLH3dRySRHg&oe=640F7262" width="300px" height="200px">
+				<H2>Shankar Yadav </H2>
+				<h3>contact no:+977-98........</h3>
+			
+			<h3>CLASS TEACHER 08 'Pahard'</h3>
+			
+				<img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/277669968_2105880356227981_8358433786886994162_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=g14ckyrYla0AX8z6jh0&_nc_ht=scontent.fktm9-2.fna&oh=00_AfAOCyQWD-FUuhkRFw-99-HwGJs_cJGI1FHLGeM35zIhuA&oe=64106B1F" width="300px" height="200px">
+				<H2>	Ram Sawarth Yadav </H2>
+				<h3>contact no:+977-9845095966</h3>
+			
+			<h3>CLASS TEACHER 08 'Tarai'</h3>
+			
+				<img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t1.6435-9/145527178_1622175047967206_7411770778483681776_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=174925&_nc_ohc=abeV9qYtnHgAX9fdHoc&_nc_ht=scontent.fktm9-2.fna&oh=00_AfD6WdT0MF1msjdRKfN_3x2FpeS8wLCpyR3sFef82hNtXA&oe=6432A3A7" width="300px" height="200px">
+				<H2>Manoj Patel</H2>
+				<h3>contact no:+977-9845230572</h3>
+			</ARTICLE>
+		</details>
+	</ul>
+	<ul>
+		<details>
+			<summary>CLASS TEACHER Of 07 </summary>
+
+						<ARTICLE>
+			    <h3>CLASS TEACHER 07 'HIMAL'</h3>				
+				<img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t1.6435-9/134474047_2734323446880780_4707842048353985780_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=174925&_nc_ohc=FGDei3ROj68AX-SOErY&_nc_ht=scontent.fktm9-2.fna&oh=00_AfBRXOub7AwaEBSjPdefJuK3cUPzctB19FoV_AsSp72lww&oe=6432A70F" width="300px" height="200px">
+				<H2>Ajay Yadav </H2>
+				<h3>contact no:+977-9845527742<h3>
+			
+			<h3>CLASS TEACHER 07'Pahard'</h3>
+			
+				<img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t1.6435-9/120339952_1091586171237184_7784452633034224133_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=i0JhFzckA4QAX9wO5n6&_nc_ht=scontent.fktm9-2.fna&oh=00_AfBSLqTCh-MgKHjyBCQI00dHBSiWYh0tVJdz-rkHYJ-BcQ&oe=6432A41B" width="300px" height="200px">
+				<H2>Udhhab Badal </H2>
+				<h3>contact no:+977-9845058611</h3>
+			
+			<h3>CLASS TEACHER 07 'Tarai'</h3>
+			
+				<img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t1.6435-1/100772409_104340954640722_8542120696778588160_n.jpg?stp=dst-jpg_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=7206a8&_nc_ohc=sKewYOgIW_cAX9X4_0H&_nc_ht=scontent.fktm9-2.fna&oh=00_AfCI_UPb41o4D_EpvAs2ZzqFRGRD0tjFWvZXb_j-Hj-wsA&oe=6432D135" width="300px" height="200px">
+				<H2>Arun Kumar Shah</H2>
+				<h3>contact no:+977-9841019024</h3>			
+			</ARTICLE>
+		</details>
+	</ul>
+	<ul>
+		<details>
+			<summary>CLASS TEACHER of 06 </summary>
+			<ARTICLE>
+				<h3>CLASS TEACHER 06 'Himal'</h3>
+				<img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t1.6435-1/124341464_2822674928002343_4571212649417465133_n.jpg?stp=dst-jpg_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=f67be1&_nc_ohc=QrrRJUVSTogAX8aeLfp&_nc_ht=scontent.fktm9-2.fna&oh=00_AfAc1IG_kjCKECGETNYqBwuYuOtPCC2kWw6XUpZ6dVtT4w&oe=6432B17E" width="300px" height="200px">
+				<H2>Santosh Kumar Thakur </H2>
+				<h3>contact no:+977-9811211144</h3>
+
+			<h3>CLASS TEACHER 06 'Pahard'</h3>
+			<ARTICLE>
+				<img src="" width="300px" height="200px">
+				<H2>Khusbu Jha</H2>
+				<h3>contact no:+977-98--------</h3>
+			
+			<h3>CLASS TEACHER 06 'Tarai'</h3>
+			<ARTICLE>
+				<img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t1.6435-9/53176118_2171496782929983_7991559434788667392_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=Mz7SIzKmBQIAX_NtGdW&_nc_ht=scontent.fktm9-2.fna&oh=00_AfBBFcojeqYKBJXaLOw2bg5p0j6uoEhvTcDj3Cc1v0wgcA&oe=6432C42A" width="300px" height="200px">
+				<H2>Vishnu Narayan Chaudhhary </H2>
+				<h3>contact no:+977-984566456</h3>
+			</ARTICLE>
+		</details>
+	</ul>
+	<ul>
+		<details>
+			<summary>CLASS TEACHER of 05 </summary>
+			<ARTICLE>
+				<h3>CLASS TEACHER 05 'Himal'</h3>
+				<img src="" width="300px" height="200px">
+				
+			</ARTICLE>
+		
+			<h3>CLASS TEACHER 05 'Pahard'</h3>
+			<ARTICLE>
+				<img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t1.6435-9/204571976_1990359367794334_958784296313267902_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=EEBrIsWCBAcAX-l-HLZ&_nc_ht=scontent.fktm9-2.fna&oh=00_AfCh3roEEtg1c3nUWeCKxr8Zq464DYvGkqk01jKLTfJJQg&oe=6432D5C5" width="300px" height="200px">
+				<H2>MD.Farahad Reja </H2>
+				<h3>contact no:+977-9844490789</h3>
+
+				</ARTICLE>
+
+			<h3>CLASS TEACHER 05 'Tarai'</h3>
+			<ARTICLE>
+				<img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t1.6435-9/145079076_1622070037977707_5767179819542818994_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=QdJXTHiS6G0AX_0bZSB&_nc_ht=scontent.fktm9-2.fna&oh=00_AfCS1Yl4s-ZfrYCQIlwvgjcziSRpzhzH9UhbQwAhJ3Wtyg&oe=6432B504" width="300px" height="200px">
+				<h2>Kameshawar Chaudhhary </H2>
+				<h3>contact no:+977-9855035436</h3>
+							</ARTICLE>
+		</details>
+	</ul>
+<ul>
+		<details>
+			<summary>CLASS TEACHER of 04 </summary>
+			<ARTICLE>
+				<h3>CLASS TEACHER 04 'Himal'</h3>
+				<img src="E:\index.html\NPS\teacher\4a.jpg" width="300px" height="200px">
+				<H2>Nagendra Prasad Yadav</H2>
+				<h3>contact no:+977-9845316710</h3>
+			</ARTICLE>
+	
+			<h3>CLASS TEACHER 04 'Pahard'</h3>
+			<ARTICLE>
+				<img src="E:\index.html\NPS\teacher\4b.jpg" width="300px" height="200px">
+				<H2>Bidhya Basnet</H2>
+				<h3>contact no:+977-9855042363</h3>
+			</ARTICLE>
+		
+		
+			<h3>CLASS TEACHER 04 'Tarai'</h3>
+			<ARTICLE>
+				<img src="E:\index.html\NPS\teacher\4c.jpg" width="300px" height="200px">
+				<H2></H2>
+				<h3>contact no:+977-9819294963</h3>
+			</ARTICLE>
+		</details>
+	</ul>
+<ul>
+		<details>
+			<summary>CLASS TEACHER of 03 </summary>
+			<ARTICLE>
+				<h3>CLASS TEACHER 03 'Himal'</h3>
+				<img src="E:\index.html\NPS\teacher\3a.jpg" width="300px" height="200px">
+				<H2>Sumit Jaiswal</H2>
+				<h3>contact no:+977-9807747424</h3>
+			</ARTICLE>
+		
+			<h3>CLASS TEACHER 03 'Pahard'</h3>
+			<ARTICLE>
+				<img src="E:\index.html\NPS\teacher\3b.jpg" width="300px" height="200px">
+				<H2>Rausan Mishara</H2>
+				<h3>contact no:+977-9845169515</h3>
+			</ARTICLE>
+
+			<h3>CLASS TEACHER 03 'Tarai'</h3>
+			<ARTICLE>
+				<img src="" width="300px" height="200px">
+				<H2></H2>
+				<h3></h3>
+			</ARTICLE>
+		
+		
+			<h3>CLASS TEACHER 02 'Himal'</h3>
+			<ARTICLE>
+				<img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/273703865_4908423825919030_6134344160502653185_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=gaGTU4GjWPoAX8Fh7zV&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDK97nhxBU3auWMh3Jh6Hf74suGrKQIH-rUbpqSUgPq5A&oe=63BEEC24" width="300px" height="200px">
+				<H2>Vimal Sapkota</H2>
+				<h3>contact no:+977-98453879876</h3>
+			</ARTICLE>
+
+			<h3>CLASS TEACHER 02 'Pahard'</h3>
+			<ARTICLE>
+				<img src="" width="300px" height="200px">
+				<H2>Kundan Yadav</H2>
+				<h3>contact no:+977-9869888511</h3>
+			</ARTICLE>
+		
+		
+			<h3>CLASS TEACHER 02 'Tarai'</h3>
+			<ARTICLE>
+				<img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/319501622_2967202696918970_1052300102137202094_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=X0C3eZj5dvEAX__B-s2&_nc_ht=scontent.fktm9-2.fna&oh=00_AfBMUAYp-xaojOC8pYPWpludArVoXIUTZNTIP3jsY2HP_A&oe=63C046BB" width="300px" height="200px">
+				<H2>Prem Chandra Singh</H2>
+				<h3>contact no:+977-9845134452</h3>
+			</ARTICLE>
+		</details>
+	</ul>
+<ul>
+		<details>
+			<summary>CLASS TEACHER of 01 </summary>
+			<ARTICLE>
+				<h3>CLASS TEACHER 01 'Himal'</h3>
+				<img src="https://scontent.fktm9-2.fna.fbcdn.net/v/t39.30808-6/212829747_2877970172469993_5940046748350886516_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=174925&_nc_ohc=TYbIvlx_5UsAX9biGSk&_nc_ht=scontent.fktm9-2.fna&oh=00_AfDCRhefaUcJOshVl7XsKuJwzHM9Ee-SWtvws_THkXGTrw&oe=63C030FD" width="300px" height="200px">
+				<H2>Muna Thakur</H2>
+				<h3>contact no:+977-9809108223</h3>
+			</ARTICLE>
+		
+			<h3>CLASS TEACHER 01 'Pahard'</h3>
+			<ARTICLE>
+				<img src="" width="300px" height="200px">
+				<H2></H2>
+				<h3>contact no:+977-98</h3>
+			</ARTICLE>
+	
+			<h3>CLASS TEACHER 01 'Tarai'</h3>
+			<ARTICLE>
+				<img src="" width="300px" height="200px">
+				<H2></H2>
+				<h3>contact no:+977-98</h3>
+			</ARTICLE>
+		</details>
+	</ul>
+<ul>
+		<details>
+			<summary>CLASS TEACHER of KG </summary>
+			<ARTICLE>
+				<h3>CLASS TEACHER KG 'Himal'</h3>
+				<img src="" width="300px" height="200px">
+				<H2></H2>
+				<h3>contact no:+977-98</h3>
+			</ARTICLE>
+		
+			<h3>CLASS TEACHER KG 'Pahard'</h3>
+			<ARTICLE>
+				<img src="" width="300px" height="200px">
+				<H2></H2>
+				<h3>contact no:+977-98</h3>
+			</ARTICLE>
+		
+			<h3>CLASS TEACHER KG 'Tarai'</h3>
+			<ARTICLE>
+				<img src="" width="300px" height="200px">
+				<H2></H2>
+				<h3>contact no:+977-98</h3>
+			</ARTICLE>
+		</details>
+	</ul>
+<ul>
+		<details>
+			<summary>CLASS TEACHER Of Nursary </summary>
+			<ARTICLE>
+				<h3>CLASS TEACHER Nursary 'Himal'</h3>
+				<img src="" width="300px" height="200px">
+				<H2></H2>
+				<h3>contact no:+977-98</h3>
+			</ARTICLE>
+		
+			<h3>CLASS TEACHER Nursary  'Pahard'</h3>
+			<ARTICLE>
+				<img src="" width="300px" height="200px">
+				<H2></H2>
+				<h3>contact no:+977-98</h3>
+			</ARTICLE>
+		
+			<h3>CLASS TEACHER Nursary  'Tarai'</h3>
+			<ARTICLE>
+				<img src="" width="300px" height="200px">
+				<H2></H2>
+				<h3>contact no:+977-98</h3>
+			</ARTICLE>
+		</details>
+	</ul>
+
+</aside>
+<DIV class="slide-left">
+<h2 ><B>SPECIAL THINGS WON'T SEEN DIRECTLY TO US</B></h2>	
+<H2><B>TO SEE IT WE MUST DO SOMETHING .</B></H2>
+<h2>DON'T JUDGE ANYTHINGS BY ITS COVER</h2>
+</DIV>
+
+<h3><MARQUEE behavoir="alternate">EVERYTHINGS CAN'T SEEN ONLINE.PLEASE VISIT OUR NPS. </MARQUEE></h3>
+<h3><MARQUEE>CREATED BY NPS 7{HIMAL} STUDENT :-KUNDAN SHAH </h3></MARQUEE></h3>
+<H3>THANK YOU FOR VISITING OUR SITE</H3>
+</hr>
+</body>
+
+</html>
+				
